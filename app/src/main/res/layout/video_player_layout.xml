@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <VideoView
+        android:id="@+id/video_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/video_subtitle_rv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_subtitle_height"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/margiin_16"
+        android:background="@color/black_semi_transparent"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_play_height"
+        android:background="@drawable/shadow"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        tools:text="Video name"
+        android:textSize="@dimen/text_large"
+        android:paddingLeft="@dimen/margin_36"
+        android:paddingStart="@dimen/margin_36"
+        android:paddingEnd="@dimen/margin_36"
+        android:paddingRight="@dimen/margin_36"
+        />
+</FrameLayout>

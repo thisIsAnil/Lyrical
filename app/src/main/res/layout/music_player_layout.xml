@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/music_player_visualizer_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+    <RelativeLayout
+        android:id="@+id/music_player_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/music_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_xlarge"
+                tools:text="Music name"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margiin_16"
+                android:id="@+id/music_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_large"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-thin"
+                android:textStyle="bold"
+                tools:text="Artist Name"
+
+               />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lyrics_viewer_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/aar_footer_height"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="@dimen/margiin_16"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/music_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/aar_footer_height"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:progress="59"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/aar_footer_height"
+            android:layout_alignParentBottom="true">
+
+            <ImageButton
+                android:id="@+id/music_player_restart"
+                android:layout_width="@dimen/player_secondary_btn_height"
+                android:layout_height="@dimen/player_secondary_btn_height"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/music_player_play"
+                android:layout_toLeftOf="@+id/music_player_play"
+                android:layout_marginTop="@dimen/margin_50"
+                android:padding="@dimen/margin_8"
+                android:scaleType="fitCenter"
+                android:src="@drawable/aar_ic_restart"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <ImageButton
+                android:id="@+id/music_player_play"
+                android:layout_width="@dimen/player_primary_btn_height"
+                android:layout_height="@dimen/player_primary_btn_height"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/margin_50"
+                android:layout_margin="@dimen/margiin_16"
+                android:padding="@dimen/margin_8"
+                android:scaleType="fitCenter"
+                android:src="@drawable/aar_ic_play"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

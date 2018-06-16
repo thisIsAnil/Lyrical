@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    >
+
+    <TextView
+        android:id="@+id/text_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/shadow_toolbar"
+        android:textSize="@dimen/text_large"
+        android:text="@string/lyrical_notepad"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/margiin_16"
+        android:paddingLeft="@dimen/margiin_16"
+        android:paddingRight="@dimen/margiin_16"
+        android:paddingEnd="@dimen/margiin_16"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        style="@style/Widget.CardContent"
+        >
+    <TextView
+        android:id="@+id/converted_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/text_medium"
+        tools:text="Hii I got the results"
+        android:fontFamily="sans-serif"
+        />
+    </ScrollView>
+</LinearLayout>

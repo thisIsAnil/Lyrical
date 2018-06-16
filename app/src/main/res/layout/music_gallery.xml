@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/tool_bar_back"
+        android:id="@+id/music_gallery_back"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50"
+        android:text="@string/select_audio"
+        android:textSize="@dimen/text_large"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:background="@drawable/shadow_toolbar"
+        />
+    <ListView
+        android:id="@+id/music_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        >
+
+    </ListView>
+</FrameLayout>

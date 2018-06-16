@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--margins-->
+    <dimen name="padding_16">24dp</dimen>
+    <dimen name="margin_4">6dp</dimen>
+    <dimen name="margiin_16">36dp</dimen>
+    <dimen name="margin_8">12dp</dimen>
+    <dimen name="margin_36">54dp</dimen>
+    <dimen name="margin_50">75dp</dimen>
+    <!--text sizes-->
+    <dimen name="text_small">22sp</dimen>
+    <dimen name="text_medium">24sp</dimen>
+    <dimen name="text_large">28sp</dimen>
+    <dimen name="text_xlarge">36sp</dimen>
+    <dimen name="text_xxlarge">48sp</dimen>
+    <dimen name="panel_height">72dp</dimen>
+
+    <!-- view heights-->
+    <dimen name="download_panel_bottom_height">105dp</dimen>
+    <dimen name="task_thumnail_height">96dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="media_thumb_width">180dp</dimen>
+    <dimen name="media_thub_height">144dp</dimen>
+    <dimen name="fab_btn_height">96dp</dimen>
+    <dimen name="back_btn_height">90dp</dimen>
+    <dimen name="player_primary_btn_height">140dp</dimen>
+    <dimen name="player_secondary_btn_height">110dp</dimen>
+    <dimen name="video_control_height">96dp</dimen>
+    <dimen name="video_play_height">84dp</dimen>
+    <dimen name="video_subtitle_height">90dp</dimen>
+
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lyrical</string>
+    <string name="lyrical_video">VideoTitle</string>
+    <string name="lyrical_audio">LyriMusic</string>
+    <string name="lyrical_notepad">SpeakPad</string>
+    <string name="lyrical_how_am_i">How Am I?</string>
+    <string name="menu">Menu</string>
+    <string name="tasks">Tasks</string>
+    <string name="audio_record_error">Error while Recording.</string>
+    <string name="wai_error">Error.Please Try Again.</string>
+    <string name="no_video_found">No Lyrics found.</string>
+    <string name="no_audio_found">No audio Lyrics found.</string>
+    <string name="no_speakpad_found">No SpeakPad found.</string>
+    <string name="lyrics_add">Add</string>
+    <string name="select_video">Select Video</string>
+    <string name="select_audio">Select Music</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="analysing">Analysing</string>
+    <string name="failed_to_analyse_sentiment">Some Error occurred.</string>
+</resources>

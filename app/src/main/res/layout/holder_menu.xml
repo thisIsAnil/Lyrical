@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="@dimen/margin_8"
+    card_view:cardElevation="6dp">
+
+    <FrameLayout
+        android:id="@+id/menu_gradient"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/Widget.CardContent"
+        android:background="@drawable/gradient_wai"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/menu"
+            app:srcCompat="@drawable/ic_who_am_i"
+            android:scaleType="fitCenter"
+            android:paddingBottom="@dimen/margin_36"
+            />
+
+        <TextView
+            android:id="@+id/menu_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/text_medium"
+            android:text="@string/lyrical_video"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            />
+
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

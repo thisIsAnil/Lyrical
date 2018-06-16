@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#388e3c</color>
+    <color name="colorPrimaryLight">#c8e6d9</color>
+    <color name="colorAccent">#20948B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="white">#ffffff</color>
+    <color name="video_text_color">#366796</color>
+    <color name="notepad_text_color">#ff314f</color>
+    <color name="music_text_color">#ff7f4f</color>
+    <color name="wai_text_color">#273b7a</color>
+    <color name="smoke_black">#505050</color>
+    <color name="black_semi_transparent">#A4000000</color>
+
+</resources>

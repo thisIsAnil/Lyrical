@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:background="@color/colorPrimary">
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/tool_bar_back"
+        android:id="@+id/gallery_back"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Select Videos"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/action_bar_title_optimse"
+        android:layout_marginStart="@dimen/back_btn_height"
+        android:layout_marginLeft="@dimen/back_btn_height"
+        />
+
+</FrameLayout>
